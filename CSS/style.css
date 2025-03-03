@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1800px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    background-color: black;
+}
+.cards{
+    width: 650px;
+    height: 250px;
+    border-radius: 25px;
+    background: linear-gradient(90deg,rgba(145, 143, 143, 0),   rgba(0, 0, 0, 0.829),rgb(0, 0, 0)),url(../Is_Spiderman_Dc_Or_Marvel.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    margin: 50px;    
+}
+.left{
+    width: 50%;
+    height: 100%;
+}
+.right{
+    width: 50%;
+    height: 100%;
+    color: #fff;
+}
+button{
+
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: green;
+    box-shadow: 0px 0px 15px green;
+}
